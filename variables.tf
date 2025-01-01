@@ -1,6 +1,7 @@
 
 variable "host_os" {
-  type = string
+  type    = string
+  default = "ap-southeast-1"
 }
 
 variable "aws_region" {
