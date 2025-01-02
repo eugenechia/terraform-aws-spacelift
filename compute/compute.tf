@@ -1,5 +1,5 @@
 resource "aws_key_pair" "spacelift_auth" {
-  key_name   = "eugene-tf-spacelift"
+  key_name   = var.key_name
   public_key = file("/mnt/workspace/tf-spacelift.pub")
 }
 
